@@ -1,0 +1,16 @@
+{
+  "name": "co2-calculator.js",
+  "version": "1.0.0",
+  "description": "Node.js co2-emission-calculator",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "mocha": "^8.2.1",
+    "yargs": "^16.2.0"
+  }
+}
