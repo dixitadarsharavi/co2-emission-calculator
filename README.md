@@ -55,10 +55,10 @@ npm test
 
 ### Valid commands for user inputs:
 
-1) transportation-method: small-diesel-car,small-petrol-car,small-plugin-hybrid-car,small-electric-car,
+1) **transportation-method**: small-diesel-car,small-petrol-car,small-plugin-hybrid-car,small-electric-car,
                           medium-diesel-car,medium-petrol-car,medium-plugin-hybrid-car,medium-electric-car,
                           large-diesel-car,large-petrol-car,large-plugin-hybrid-car,large-electric-car,
                           bus,train
-2) distance: Enter a number (greater than 0)
-3) unit-of-distance: 'km' or 'm' (Default: 'km')
-4) output: 'kg' or 'g'
+2) **distance**: Enter a number (greater than 0)
+3) **unit-of-distance**: 'km' or 'm' (Default: 'km')
+4) **output**: 'kg' or 'g'
