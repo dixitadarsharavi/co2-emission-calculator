@@ -6,13 +6,13 @@ A command line tool that returns the amount of CO2-equivalent that will be cause
 
 - Ubuntu Operating system.  
 - Please have latest version of 'nodejs' and 'npm' installed.
-- Minimum version of nodejs (v10.23.0)
-- Minimum version of npm (6.14.8)
+- Minimum version of nodejs **(v10.23.0)**
+- Minimum version of npm **(6.14.8)**
 
 ## Setting up the environment:
 
 - Extract the zip folder.
-- Navigate to the root of the project i.e. ~/co2-emission-calculator-master
+- Navigate to the root of the project i.e. `~/co2-emission-calculator-master`
 - File system structure:
     - package.json file: It contains all the meta-data information about the nodejs project.
     - README.md file: It gives brief introduction about the command line tool along with its usage and testing instructions.
@@ -27,7 +27,7 @@ A command line tool that returns the amount of CO2-equivalent that will be cause
 ```
 Now the project is set-up with testing environment as well as dependecies required.
 
-- Navigate to the /src folder.
+- Navigate to the `/src` folder.
 
 Compile and run the interface using below command,
 
