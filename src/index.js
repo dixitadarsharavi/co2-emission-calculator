@@ -77,10 +77,9 @@ function validMeansOfTransport(transportationMethod)
 function validDistance(distanceStr,unitOfDistance)
 {
     var distance = +distanceStr;
-    if(isNaN(distance) || distance < 0 )
+    if(isNaN(distance) || distance <= 0 )
     {   
-        distance = 0;
-        
+        distance = 0;   
     }
     else
     {
@@ -122,7 +121,7 @@ function calculateCo2(co2ePerPassengerPerKm,distance)
     return result;
 }
 
-//--------------------------------- Export functions for unit tesing purposes ---------------------------------------
+//--------------------------------- Export functions for unit tesing purposes ----------------------------------------------------
 module.exports = {
     validMeansOfTransport,
     validDistance,

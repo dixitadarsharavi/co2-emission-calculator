@@ -136,7 +136,7 @@ describe('CO2 emission calculator:', function() {
 
         describe('Display output in g(grams)',function(){
             
-            it('Correctly return value of co2-emitted per journey in kg', function() {
+            it('Correctly return value of co2-emitted per journey in g', function() {
                 //  train
                 const expected = 87;
                 assert.strictEqual(Math.round(6 * 14.5*10)/10,expected);
